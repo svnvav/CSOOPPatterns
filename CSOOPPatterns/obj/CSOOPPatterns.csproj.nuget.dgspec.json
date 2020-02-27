@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj": {}
+  },
+  "projects": {
+    "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj",
+        "projectName": "CSOOPPatterns",
+        "projectPath": "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj",
+        "packagesPath": "C:\\Users\\a.savinov\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.savinov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
