@@ -9,3 +9,14 @@ C:\Users\a.savinov\RiderProjects\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreap
 C:\Users\a.savinov\RiderProjects\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.AssemblyInfo.cs
 C:\Users\a.savinov\RiderProjects\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.dll
 C:\Users\a.savinov\RiderProjects\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.pdb
+D:\dev\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.deps.json
+D:\dev\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.runtimeconfig.json
+D:\dev\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.runtimeconfig.dev.json
+D:\dev\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.dll
+D:\dev\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.pdb
+D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.csprojAssemblyReference.cache
+D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.csproj.CoreCompileInputs.cache
+D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.AssemblyInfoInputs.cache
+D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.AssemblyInfo.cs
+D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.dll
+D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.pdb

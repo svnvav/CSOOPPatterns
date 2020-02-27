@@ -1,4 +1,5 @@
 ﻿using System;
+using CSOOPPatterns.FactoryMethod;
 
 namespace CSOOPPatterns
 {
@@ -6,7 +7,15 @@ namespace CSOOPPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Singleton.Instance.SingletonScream();
+
+            var shipFactory = new ShipFactory();
+            var fabricMethodClient = new FabricMethodClient(shipFactory);
+            fabricMethodClient.Deliver();
+            
+            var cargoFactory = new CargoFactory();
+            fabricMethodClient.SetTransportFactory(cargoFactory);
+            fabricMethodClient.Deliver();
         }
     }
 }

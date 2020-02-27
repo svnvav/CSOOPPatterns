@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\a.savinov\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\a.savinov\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CSOOPPatterns.-425331794.00" t="ExcludeRecursive" />
-    <e p="C:\Users\a.savinov\RiderProjects\CSOOPPatterns" t="IncludeFlat">
+    <e p="C:\Users\a.savinov\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CSOOPPatterns.-548105033.00" t="ExcludeRecursive" />
+    <e p="D:\dev\CSOOPPatterns" t="IncludeFlat">
       <e p="CSOOPPatterns" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CSOOPPatterns.csproj" t="IncludeRecursive" />
+        <e p="FactoryMethod" t="Include">
+          <e p="Cargo.cs" t="Include" />
+          <e p="CargoFactory.cs" t="Include" />
+          <e p="FabricMethodClient.cs" t="Include" />
+          <e p="ITransport.cs" t="Include" />
+          <e p="Ship.cs" t="Include" />
+          <e p="ShipFactory.cs" t="Include" />
+          <e p="TransportFactory.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -15,6 +24,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Singleton.cs" t="Include" />
       </e>
       <e p="CSOOPPatterns.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
