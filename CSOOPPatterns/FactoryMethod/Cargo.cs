@@ -6,7 +6,7 @@ namespace CSOOPPatterns.FactoryMethod
     {
         public void Deliver()
         {
-            Console.WriteLine("доставляет по карговски");
+            Console.WriteLine($"{GetType().Name}: *доставляет по грузовически*");
         }
     }
 }

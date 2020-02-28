@@ -5,6 +5,20 @@
     <e p="C:\Users\a.savinov\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CSOOPPatterns.-548105033.00" t="ExcludeRecursive" />
     <e p="D:\dev\CSOOPPatterns" t="IncludeFlat">
       <e p="CSOOPPatterns" t="IncludeRecursive">
+        <e p="AbstractFactory" t="Include">
+          <e p="AbstractFactoryClient.cs" t="Include" />
+          <e p="HumanUnitFactory.cs" t="Include" />
+          <e p="OrkUnitFactory.cs" t="Include" />
+          <e p="UnitFactory.cs" t="Include" />
+          <e p="Units" t="Include">
+            <e p="HumanInfantry.cs" t="Include" />
+            <e p="HumanTrembling.cs" t="Include" />
+            <e p="ISiege.cs" t="Include" />
+            <e p="IWarrior.cs" t="Include" />
+            <e p="OrcCatapult.cs" t="Include" />
+            <e p="OrkBerserk.cs" t="Include" />
+          </e>
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="CSOOPPatterns.csproj" t="IncludeRecursive" />
         <e p="FactoryMethod" t="Include">

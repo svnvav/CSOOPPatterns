@@ -1,4 +1,4 @@
-﻿using System;
+﻿using CSOOPPatterns.AbstractFactory;
 using CSOOPPatterns.FactoryMethod;
 
 namespace CSOOPPatterns
@@ -7,8 +7,7 @@ namespace CSOOPPatterns
     {
         static void Main(string[] args)
         {
-            Singleton.Instance.SingletonScream();
-
+            //FactoryMethod
             var shipFactory = new ShipFactory();
             var fabricMethodClient = new FabricMethodClient(shipFactory);
             fabricMethodClient.Deliver();
@@ -16,6 +15,19 @@ namespace CSOOPPatterns
             var cargoFactory = new CargoFactory();
             fabricMethodClient.SetTransportFactory(cargoFactory);
             fabricMethodClient.Deliver();
+            
+            //AbstractFactory
+
+            var humanFactory = new HumanUnitFactory();
+            var abstractFactoryClient = new AbstractFactoryClient(humanFactory);
+            abstractFactoryClient.DoSquad();
+            
+            var orkFactory = new OrkUnitFactory();
+            abstractFactoryClient.SetUnitFactory(orkFactory);
+            abstractFactoryClient.DoSquad();
+            
+            //Singleton
+            Singleton.Instance.SingletonScream();
         }
     }
 }
