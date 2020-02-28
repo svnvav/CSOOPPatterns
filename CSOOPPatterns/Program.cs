@@ -1,6 +1,7 @@
 ﻿using CSOOPPatterns.AbstractFactory;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
+using CSOOPPatterns.Prototype;
 
 namespace CSOOPPatterns
 {
@@ -37,6 +38,13 @@ namespace CSOOPPatterns
             sectionalUnit = director.GetUnit();
             sectionalUnit.DoStuff();
 
+            //Prototype
+            var prototype = new PrototypeSample(2);
+            prototype.SetProperty(1.0f);
+            prototype.DoStuff();
+            var clone = (PrototypeSample)prototype.Clone();
+            clone.DoStuff();
+            
             //Singleton
             Singleton.Instance.SingletonScream();
         }

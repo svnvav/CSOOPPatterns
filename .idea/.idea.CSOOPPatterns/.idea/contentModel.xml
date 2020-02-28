@@ -5,46 +5,55 @@
     <e p="C:\Users\a.savinov\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CSOOPPatterns.-548105033.00" t="ExcludeRecursive" />
     <e p="D:\dev\CSOOPPatterns" t="IncludeFlat">
       <e p="CSOOPPatterns" t="IncludeRecursive">
-        <e p="AbstractFactory" t="Include">
-          <e p="AbstractFactoryClient.cs" t="Include" />
-          <e p="HumanUnitFactory.cs" t="Include" />
-          <e p="OrkUnitFactory.cs" t="Include" />
-          <e p="UnitFactory.cs" t="Include" />
-          <e p="Units" t="Include">
-            <e p="HumanInfantry.cs" t="Include" />
-            <e p="HumanTrembling.cs" t="Include" />
-            <e p="ISiege.cs" t="Include" />
-            <e p="IWarrior.cs" t="Include" />
-            <e p="OrcCatapult.cs" t="Include" />
-            <e p="OrkBerserk.cs" t="Include" />
-          </e>
-        </e>
+        <e p="Behavioral" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Builder" t="Include">
-          <e p="BaldBuilder.cs" t="Include" />
-          <e p="Director.cs" t="Include" />
-          <e p="OpossumBuilder.cs" t="Include" />
-          <e p="Unit" t="Include">
-            <e p="BaldHead.cs" t="Include" />
-            <e p="BaldLeg.cs" t="Include" />
-            <e p="IHead.cs" t="Include" />
-            <e p="ILeg.cs" t="Include" />
-            <e p="OpossumHead.cs" t="Include" />
-            <e p="OpossumLeg.cs" t="Include" />
-            <e p="SectionalUnit.cs" t="Include" />
+        <e p="Creational" t="Include">
+          <e p="AbstractFactory" t="Include">
+            <e p="AbstractFactoryClient.cs" t="Include" />
+            <e p="HumanUnitFactory.cs" t="Include" />
+            <e p="OrkUnitFactory.cs" t="Include" />
+            <e p="UnitFactory.cs" t="Include" />
+            <e p="Units" t="Include">
+              <e p="HumanInfantry.cs" t="Include" />
+              <e p="HumanTrembling.cs" t="Include" />
+              <e p="ISiege.cs" t="Include" />
+              <e p="IWarrior.cs" t="Include" />
+              <e p="OrcCatapult.cs" t="Include" />
+              <e p="OrkBerserk.cs" t="Include" />
+            </e>
           </e>
-          <e p="UnitBuilder.cs" t="Include" />
+          <e p="Builder" t="Include">
+            <e p="BaldBuilder.cs" t="Include" />
+            <e p="Director.cs" t="Include" />
+            <e p="OpossumBuilder.cs" t="Include" />
+            <e p="Unit" t="Include">
+              <e p="BaldHead.cs" t="Include" />
+              <e p="BaldLeg.cs" t="Include" />
+              <e p="IHead.cs" t="Include" />
+              <e p="ILeg.cs" t="Include" />
+              <e p="OpossumHead.cs" t="Include" />
+              <e p="OpossumLeg.cs" t="Include" />
+              <e p="SectionalUnit.cs" t="Include" />
+            </e>
+            <e p="UnitBuilder.cs" t="Include" />
+          </e>
+          <e p="FactoryMethod" t="Include">
+            <e p="Cargo.cs" t="Include" />
+            <e p="CargoFactory.cs" t="Include" />
+            <e p="FabricMethodClient.cs" t="Include" />
+            <e p="ITransport.cs" t="Include" />
+            <e p="Ship.cs" t="Include" />
+            <e p="ShipFactory.cs" t="Include" />
+            <e p="TransportFactory.cs" t="Include" />
+          </e>
+          <e p="Prototype" t="Include">
+            <e p="IPrototype.cs" t="Include" />
+            <e p="PrototypeProperty.cs" t="Include" />
+            <e p="PrototypeSample.cs" t="Include" />
+          </e>
+          <e p="Singleton.cs" t="Include" />
         </e>
         <e p="CSOOPPatterns.csproj" t="IncludeRecursive" />
-        <e p="FactoryMethod" t="Include">
-          <e p="Cargo.cs" t="Include" />
-          <e p="CargoFactory.cs" t="Include" />
-          <e p="FabricMethodClient.cs" t="Include" />
-          <e p="ITransport.cs" t="Include" />
-          <e p="Ship.cs" t="Include" />
-          <e p="ShipFactory.cs" t="Include" />
-          <e p="TransportFactory.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -53,7 +62,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="Singleton.cs" t="Include" />
+        <e p="Structural" t="Include" />
       </e>
       <e p="CSOOPPatterns.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
