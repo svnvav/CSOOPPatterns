@@ -20,6 +20,21 @@
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Builder" t="Include">
+          <e p="BaldBuilder.cs" t="Include" />
+          <e p="Director.cs" t="Include" />
+          <e p="OpossumBuilder.cs" t="Include" />
+          <e p="Unit" t="Include">
+            <e p="BaldHead.cs" t="Include" />
+            <e p="BaldLeg.cs" t="Include" />
+            <e p="IHead.cs" t="Include" />
+            <e p="ILeg.cs" t="Include" />
+            <e p="OpossumHead.cs" t="Include" />
+            <e p="OpossumLeg.cs" t="Include" />
+            <e p="SectionalUnit.cs" t="Include" />
+          </e>
+          <e p="UnitBuilder.cs" t="Include" />
+        </e>
         <e p="CSOOPPatterns.csproj" t="IncludeRecursive" />
         <e p="FactoryMethod" t="Include">
           <e p="Cargo.cs" t="Include" />

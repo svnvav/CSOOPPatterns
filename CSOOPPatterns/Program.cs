@@ -1,4 +1,5 @@
 ﻿using CSOOPPatterns.AbstractFactory;
+using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 
 namespace CSOOPPatterns
@@ -17,7 +18,6 @@ namespace CSOOPPatterns
             fabricMethodClient.Deliver();
             
             //AbstractFactory
-
             var humanFactory = new HumanUnitFactory();
             var abstractFactoryClient = new AbstractFactoryClient(humanFactory);
             abstractFactoryClient.DoSquad();
@@ -26,6 +26,17 @@ namespace CSOOPPatterns
             abstractFactoryClient.SetUnitFactory(orkFactory);
             abstractFactoryClient.DoSquad();
             
+            //Builder
+            var opossumBuilder = new OpossumBuilder();
+            var director = new Director(opossumBuilder);
+            var sectionalUnit = director.GetUnit();
+            sectionalUnit.DoStuff();
+            
+            var baldBuilder = new BaldBuilder();
+            director.SetBuilder(baldBuilder);
+            sectionalUnit = director.GetUnit();
+            sectionalUnit.DoStuff();
+
             //Singleton
             Singleton.Instance.SingletonScream();
         }
