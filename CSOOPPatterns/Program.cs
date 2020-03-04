@@ -2,6 +2,7 @@
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
+using CSOOPPatterns.Structural.Adapter;
 
 namespace CSOOPPatterns
 {
@@ -47,6 +48,10 @@ namespace CSOOPPatterns
             
             //Singleton
             Singleton.Instance.SingletonScream();
+            
+            //Adapter
+            var adapterClient = new AdapterClient();
+            adapterClient.DoStuff();
         }
     }
 }

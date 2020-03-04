@@ -62,7 +62,21 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="Structural" t="Include" />
+        <e p="Structural" t="Include">
+          <e p="Adapter" t="Include">
+            <e p="Adapter.cs" t="Include" />
+            <e p="AdapterClient.cs" t="Include" />
+            <e p="AdapterService.cs" t="Include" />
+            <e p="ExistingClass.cs" t="Include" />
+            <e p="IAdapterInyerface.cs" t="Include" />
+          </e>
+          <e p="Bridge" t="Include" />
+          <e p="Composite" t="Include" />
+          <e p="Decorator" t="Include" />
+          <e p="Facade" t="Include" />
+          <e p="Flyweight" t="Include" />
+          <e p="Proxy" t="Include" />
+        </e>
       </e>
       <e p="CSOOPPatterns.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
