@@ -70,7 +70,15 @@
             <e p="ExistingClass.cs" t="Include" />
             <e p="IAdapterInyerface.cs" t="Include" />
           </e>
-          <e p="Bridge" t="Include" />
+          <e p="Bridge" t="Include">
+            <e p="BridgeClient.cs" t="Include" />
+            <e p="FireStaff.cs" t="Include" />
+            <e p="HumanWizard.cs" t="Include" />
+            <e p="IceStaff.cs" t="Include" />
+            <e p="IWizardStaff.cs" t="Include" />
+            <e p="Mage.cs" t="Include" />
+            <e p="OrcWarlock.cs" t="Include" />
+          </e>
           <e p="Composite" t="Include" />
           <e p="Decorator" t="Include" />
           <e p="Facade" t="Include" />

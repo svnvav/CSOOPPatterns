@@ -3,6 +3,7 @@ using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
 using CSOOPPatterns.Structural.Adapter;
+using CSOOPPatterns.Structural.Bridge;
 
 namespace CSOOPPatterns
 {
@@ -52,6 +53,10 @@ namespace CSOOPPatterns
             //Adapter
             var adapterClient = new AdapterClient();
             adapterClient.DoStuff();
+            
+            //Bridge
+            var bridgeClient = new BridgeClient();
+            bridgeClient.DoStuff();
         }
     }
 }
