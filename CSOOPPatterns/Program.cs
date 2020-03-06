@@ -4,6 +4,7 @@ using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
 using CSOOPPatterns.Structural.Adapter;
 using CSOOPPatterns.Structural.Bridge;
+using CSOOPPatterns.Structural.Composite;
 
 namespace CSOOPPatterns
 {
@@ -57,6 +58,10 @@ namespace CSOOPPatterns
             //Bridge
             var bridgeClient = new BridgeClient();
             bridgeClient.DoStuff();
+            
+            //Composite
+            var compositeClient = new CompositeClient();
+            compositeClient.DoStuff();
         }
     }
 }

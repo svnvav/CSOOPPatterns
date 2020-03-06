@@ -79,7 +79,12 @@
             <e p="Mage.cs" t="Include" />
             <e p="OrcWarlock.cs" t="Include" />
           </e>
-          <e p="Composite" t="Include" />
+          <e p="Composite" t="Include">
+            <e p="Box.cs" t="Include" />
+            <e p="CompositeClient.cs" t="Include" />
+            <e p="IEvaluatable.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+          </e>
           <e p="Decorator" t="Include" />
           <e p="Facade" t="Include" />
           <e p="Flyweight" t="Include" />
