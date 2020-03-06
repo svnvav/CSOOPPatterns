@@ -5,6 +5,7 @@ using CSOOPPatterns.Prototype;
 using CSOOPPatterns.Structural.Adapter;
 using CSOOPPatterns.Structural.Bridge;
 using CSOOPPatterns.Structural.Composite;
+using CSOOPPatterns.Structural.Decorator;
 
 namespace CSOOPPatterns
 {
@@ -62,6 +63,10 @@ namespace CSOOPPatterns
             //Composite
             var compositeClient = new CompositeClient();
             compositeClient.DoStuff();
+            
+            //Decorator
+            var decoratorClient = new DecoratorClient();
+            decoratorClient.DoStuff();
         }
     }
 }
