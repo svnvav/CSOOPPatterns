@@ -7,6 +7,7 @@ using CSOOPPatterns.Structural.Bridge;
 using CSOOPPatterns.Structural.Composite;
 using CSOOPPatterns.Structural.Decorator;
 using CSOOPPatterns.Structural.Facade;
+using CSOOPPatterns.Structural.Flyweight;
 
 namespace CSOOPPatterns
 {
@@ -72,6 +73,10 @@ namespace CSOOPPatterns
             //Facade
             var facadeClient = new Facade();
             facadeClient.DoStuff();
+            
+            //Flyweight
+            var flyweightClient = new FlyweightClient();
+            flyweightClient.DoStuff();
         }
     }
 }

@@ -20,3 +20,13 @@ D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.Assembl
 D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.AssemblyInfo.cs
 D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.dll
 D:\dev\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.pdb
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.deps.json
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.runtimeconfig.json
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.runtimeconfig.dev.json
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.dll
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\bin\Debug\netcoreapp2.2\CSOOPPatterns.pdb
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.csprojAssemblyReference.cache
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.AssemblyInfoInputs.cache
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.AssemblyInfo.cs
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.dll
+C:\dev\kvas\CSOOPPatterns\CSOOPPatterns\obj\Debug\netcoreapp2.2\CSOOPPatterns.pdb

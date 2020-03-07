@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\a.savinov\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\a.savinov\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CSOOPPatterns.-548105033.00" t="ExcludeRecursive" />
-    <e p="D:\dev\CSOOPPatterns" t="IncludeFlat">
+    <e p="C:\dev\kvas\CSOOPPatterns" t="IncludeFlat">
       <e p="CSOOPPatterns" t="IncludeRecursive">
         <e p="Behavioral" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -100,7 +98,7 @@
           <e p="Flyweight" t="Include">
             <e p="Flyweight.cs" t="Include" />
             <e p="FlyweightClient.cs" t="Include" />
-            <e p="FlyweightFactory.cs" t="Include" />
+            <e p="FlyweightContext.cs" t="Include" />
           </e>
           <e p="Proxy" t="Include" />
         </e>
@@ -108,5 +106,7 @@
       <e p="CSOOPPatterns.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\svnva\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\svnva\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CSOOPPatterns.-1330536021.00" t="ExcludeRecursive" />
   </component>
 </project>
