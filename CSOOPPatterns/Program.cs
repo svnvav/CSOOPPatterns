@@ -8,6 +8,7 @@ using CSOOPPatterns.Structural.Composite;
 using CSOOPPatterns.Structural.Decorator;
 using CSOOPPatterns.Structural.Facade;
 using CSOOPPatterns.Structural.Flyweight;
+using CSOOPPatterns.Structural.Proxy;
 
 namespace CSOOPPatterns
 {
@@ -77,6 +78,10 @@ namespace CSOOPPatterns
             //Flyweight
             var flyweightClient = new FlyweightClient();
             flyweightClient.DoStuff();
+            
+            //Proxy
+            var proxyClient = new ProxyClient();
+            proxyClient.DoStuff();
         }
     }
 }

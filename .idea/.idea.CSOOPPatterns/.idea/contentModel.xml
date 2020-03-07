@@ -100,7 +100,12 @@
             <e p="FlyweightContext.cs" t="Include" />
             <e p="FlyweightContext.Flyweight.cs" t="Include" />
           </e>
-          <e p="Proxy" t="Include" />
+          <e p="Proxy" t="Include">
+            <e p="IProxyService.cs" t="Include" />
+            <e p="Proxy.cs" t="Include" />
+            <e p="ProxyClient.cs" t="Include" />
+            <e p="ProxyService.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="CSOOPPatterns.sln" t="IncludeFlat" />
