@@ -6,11 +6,11 @@ namespace CSOOPPatterns.Structural.Flyweight
     {
         public void DoStuff()
         {
-            var flyweightContexts = new FlyweightContext[50];
+            var flyweightContexts = new FlyweightContext[5];
 
             for (int i = 0; i < flyweightContexts.Length; i++)
             {
-                flyweightContexts[i] = new FlyweightContext((i % 5).ToString(), i);
+                flyweightContexts[i] = new FlyweightContext((i % 2).ToString(), i);
                 flyweightContexts[i].DoStuff();
             }
         }

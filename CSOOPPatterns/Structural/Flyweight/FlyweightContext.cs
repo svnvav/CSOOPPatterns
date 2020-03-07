@@ -2,14 +2,14 @@
 
 namespace CSOOPPatterns.Structural.Flyweight
 {
-    public class FlyweightContext
+    public partial class FlyweightContext
     {
         private Flyweight _flyweight;
         private int _uniqueState;
 
         public FlyweightContext(string repeatingState, int uniqueState)
         {
-            _flyweight = Flyweight.Get(repeatingState);
+            _flyweight = GetFlyweight(repeatingState);
             _uniqueState = uniqueState;
         }
         

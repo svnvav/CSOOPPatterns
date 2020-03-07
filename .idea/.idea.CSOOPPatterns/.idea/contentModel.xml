@@ -96,9 +96,9 @@
             <e p="Subsystem1.cs" t="Include" />
           </e>
           <e p="Flyweight" t="Include">
-            <e p="Flyweight.cs" t="Include" />
             <e p="FlyweightClient.cs" t="Include" />
             <e p="FlyweightContext.cs" t="Include" />
+            <e p="FlyweightContext.Flyweight.cs" t="Include" />
           </e>
           <e p="Proxy" t="Include" />
         </e>

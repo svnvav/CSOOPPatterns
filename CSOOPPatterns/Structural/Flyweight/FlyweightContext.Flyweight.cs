@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace CSOOPPatterns.Structural.Flyweight
 {
-    public class Flyweight
+    public partial class FlyweightContext
     {
         private static List<Flyweight> _flyweights = new List<Flyweight>();
 
-        public static Flyweight Get(string repeatingState)
+        private static Flyweight GetFlyweight(string repeatingState)
         {
             var flyweight = _flyweights.Find(f => f._repeatingState.Equals(repeatingState));
             if (flyweight == null)
@@ -18,17 +18,20 @@ namespace CSOOPPatterns.Structural.Flyweight
 
             return flyweight;
         }
-        
-        private string _repeatingState;
 
-        public Flyweight(string repeatingState)
+        private class Flyweight
         {
-            _repeatingState = repeatingState;
-        }
+            internal string _repeatingState;
 
-        public void DoStuff()
-        {
-            Console.Write($"Flyweights count: {_flyweights.Count} ");
+            public Flyweight(string repeatingState)
+            {
+                _repeatingState = repeatingState;
+            }
+
+            public void DoStuff()
+            {
+                Console.Write($"Flyweights count: {_flyweights.Count} ");
+            }
         }
     }
 }
