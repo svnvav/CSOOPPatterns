@@ -688,28 +688,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\svnva\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\a.savinov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\kvas\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj",
+      "projectUniqueName": "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj",
       "projectName": "CSOOPPatterns",
-      "projectPath": "C:\\dev\\kvas\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj",
-      "packagesPath": "C:\\Users\\svnva\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\kvas\\CSOOPPatterns\\CSOOPPatterns\\obj\\",
+      "projectPath": "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\CSOOPPatterns.csproj",
+      "packagesPath": "C:\\Users\\a.savinov\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\CSOOPPatterns\\CSOOPPatterns\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\svnva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\a.savinov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -734,12 +732,7 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
         "warn": true

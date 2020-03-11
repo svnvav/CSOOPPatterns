@@ -1,4 +1,5 @@
 ﻿using CSOOPPatterns.AbstractFactory;
+using CSOOPPatterns.Behavioral.ChainOfResponsibility;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -82,6 +83,11 @@ namespace CSOOPPatterns
             //Proxy
             var proxyClient = new ProxyClient();
             proxyClient.DoStuff();
+            
+            //CoR
+            var corClient = new CoRClient();
+            corClient.DoStuff();
+            
         }
     }
 }
