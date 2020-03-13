@@ -1,5 +1,6 @@
 ﻿using CSOOPPatterns.AbstractFactory;
 using CSOOPPatterns.Behavioral.ChainOfResponsibility;
+using CSOOPPatterns.Behavioral.Command;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -88,6 +89,9 @@ namespace CSOOPPatterns
             var corClient = new CoRClient();
             corClient.DoStuff();
             
+            //Command
+            var commandClient = new CommandClient();
+            commandClient.DoStuff();
         }
     }
 }

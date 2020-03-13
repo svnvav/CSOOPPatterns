@@ -14,7 +14,11 @@
             <e p="IHandler.cs" t="Include" />
           </e>
           <e p="Command" t="Include">
+            <e p="Command1.cs" t="Include" />
             <e p="CommandClient.cs" t="Include" />
+            <e p="ICommand.cs" t="Include" />
+            <e p="Invoker.cs" t="Include" />
+            <e p="Receiver.cs" t="Include" />
           </e>
           <e p="Iterator" t="Include">
             <e p="IteratorClient.cs" t="Include" />
