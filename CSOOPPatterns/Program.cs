@@ -2,6 +2,7 @@
 using CSOOPPatterns.Behavioral.ChainOfResponsibility;
 using CSOOPPatterns.Behavioral.Command;
 using CSOOPPatterns.Behavioral.Iterator;
+using CSOOPPatterns.Behavioral.Mediator;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -97,6 +98,10 @@ namespace CSOOPPatterns
             //Iterator
             var iteratorClient = new IteratorClient();
             iteratorClient.DoStuff();
+            
+            //Mediator
+            var mediatorClient = new MediatorClient();
+            mediatorClient.DoStuff();
         }
     }
 }
