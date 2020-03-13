@@ -7,7 +7,11 @@
       <e p="CSOOPPatterns" t="IncludeRecursive">
         <e p="Behavioral" t="Include">
           <e p="ChainOfResponsibility" t="Include">
+            <e p="BaseHandler.cs" t="Include" />
             <e p="CoRClient.cs" t="Include" />
+            <e p="Handler0.cs" t="Include" />
+            <e p="Handler1.cs" t="Include" />
+            <e p="IHandler.cs" t="Include" />
           </e>
           <e p="Command" t="Include">
             <e p="CommandClient.cs" t="Include" />
