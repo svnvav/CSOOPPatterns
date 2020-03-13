@@ -21,6 +21,9 @@
             <e p="Receiver.cs" t="Include" />
           </e>
           <e p="Iterator" t="Include">
+            <e p="IIterable.cs" t="Include" />
+            <e p="IIterator.cs" t="Include" />
+            <e p="IterableLinkedStack.cs" t="Include" />
             <e p="IteratorClient.cs" t="Include" />
           </e>
           <e p="Mediator" t="Include">

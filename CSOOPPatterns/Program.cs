@@ -1,6 +1,7 @@
 ﻿using CSOOPPatterns.AbstractFactory;
 using CSOOPPatterns.Behavioral.ChainOfResponsibility;
 using CSOOPPatterns.Behavioral.Command;
+using CSOOPPatterns.Behavioral.Iterator;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -92,6 +93,10 @@ namespace CSOOPPatterns
             //Command
             var commandClient = new CommandClient();
             commandClient.DoStuff();
+            
+            //Iterator
+            var iteratorClient = new IteratorClient();
+            iteratorClient.DoStuff();
         }
     }
 }
