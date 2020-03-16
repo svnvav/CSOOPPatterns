@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace CSOOPPatterns.Behavioral.Memento
 {
@@ -8,7 +9,13 @@ namespace CSOOPPatterns.Behavioral.Memento
         {
             var hero = new Hero();
             var saves = new List<Hero.Memento>();
-            //TODO:
+            
+            saves.Add(hero.Save());
+            hero.DoStuff();
+            hero.Move();
+            hero.DoStuff();
+            hero.Restore(saves[0]);
+            hero.DoStuff();
         }
     }
 }

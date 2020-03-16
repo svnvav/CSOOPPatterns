@@ -39,5 +39,10 @@ namespace CSOOPPatterns.Behavioral.Memento
             _state.y += 2;
             _state.z += 3;
         }
+
+        public void DoStuff()
+        {
+            Console.WriteLine($"Hero: {_state.x} {_state.y} {_state.z}");
+        }
     }
 }

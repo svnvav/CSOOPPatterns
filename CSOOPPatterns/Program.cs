@@ -3,6 +3,7 @@ using CSOOPPatterns.Behavioral.ChainOfResponsibility;
 using CSOOPPatterns.Behavioral.Command;
 using CSOOPPatterns.Behavioral.Iterator;
 using CSOOPPatterns.Behavioral.Mediator;
+using CSOOPPatterns.Behavioral.Memento;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -102,6 +103,10 @@ namespace CSOOPPatterns
             //Mediator
             var mediatorClient = new MediatorClient();
             mediatorClient.DoStuff();
+            
+            //Memento
+            var mementoClient = new MementoClient();
+            mementoClient.DoStuff();
         }
     }
 }
