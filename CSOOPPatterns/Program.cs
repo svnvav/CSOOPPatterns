@@ -4,6 +4,7 @@ using CSOOPPatterns.Behavioral.Command;
 using CSOOPPatterns.Behavioral.Iterator;
 using CSOOPPatterns.Behavioral.Mediator;
 using CSOOPPatterns.Behavioral.Memento;
+using CSOOPPatterns.Behavioral.Observer;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -107,6 +108,10 @@ namespace CSOOPPatterns
             //Memento
             var mementoClient = new MementoClient();
             mementoClient.DoStuff();
+            
+            //Observer
+            var ObserverClient = new ObserverClient();
+            ObserverClient.DoStuff();
         }
     }
 }

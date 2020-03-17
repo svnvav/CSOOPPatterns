@@ -38,7 +38,11 @@
             <e p="MementoClient.cs" t="Include" />
           </e>
           <e p="Observer" t="Include">
+            <e p="ISubscriber.cs" t="Include" />
+            <e p="Observer.cs" t="Include" />
             <e p="ObserverClient.cs" t="Include" />
+            <e p="Subscriber0.cs" t="Include" />
+            <e p="Subscriber1.cs" t="Include" />
           </e>
           <e p="Strategy" t="Include">
             <e p="StrategyClient.cs" t="Include" />
