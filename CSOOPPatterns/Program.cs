@@ -5,6 +5,7 @@ using CSOOPPatterns.Behavioral.Iterator;
 using CSOOPPatterns.Behavioral.Mediator;
 using CSOOPPatterns.Behavioral.Memento;
 using CSOOPPatterns.Behavioral.Observer;
+using CSOOPPatterns.Behavioral.Strategy;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -112,6 +113,10 @@ namespace CSOOPPatterns
             //Observer
             var ObserverClient = new ObserverClient();
             ObserverClient.DoStuff();
+            
+            //Strategy
+            var StrategyClient = new StrategyClient();
+            StrategyClient.DoStuff();
         }
     }
 }
