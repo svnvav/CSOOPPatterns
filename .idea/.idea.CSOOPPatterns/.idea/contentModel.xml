@@ -58,6 +58,12 @@
             <e p="TemplateMethodClient.cs" t="Include" />
           </e>
           <e p="Visitor" t="Include">
+            <e p="IPoint.cs" t="Include" />
+            <e p="IVisitor.cs" t="Include" />
+            <e p="PointA.cs" t="Include" />
+            <e p="PointB.cs" t="Include" />
+            <e p="PointBase.cs" t="Include" />
+            <e p="Visitor.cs" t="Include" />
             <e p="VisitorClient.cs" t="Include" />
           </e>
         </e>

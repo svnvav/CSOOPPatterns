@@ -7,6 +7,7 @@ using CSOOPPatterns.Behavioral.Memento;
 using CSOOPPatterns.Behavioral.Observer;
 using CSOOPPatterns.Behavioral.Strategy;
 using CSOOPPatterns.Behavioral.TemplateMethod;
+using CSOOPPatterns.Behavioral.Visitor;
 using CSOOPPatterns.Builder;
 using CSOOPPatterns.FactoryMethod;
 using CSOOPPatterns.Prototype;
@@ -122,6 +123,10 @@ namespace CSOOPPatterns
             //TemplateMethod
             var templateMethodClient = new TemplateMethodClient();
             templateMethodClient.DoStuff();
+            
+            //Visitor
+            var visitorClient = new VisitorClient();
+            visitorClient.DoStuff();
         }
     }
 }
